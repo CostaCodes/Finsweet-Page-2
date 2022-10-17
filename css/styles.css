@@ -1,0 +1,889 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header-Section*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main-header .logo-section .logo-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.main-header .right-section {
+    display: flex;
+}
+
+.right-section .navigation-section {
+    border-right: 3px solid gray;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.navigation-section ul {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation-section ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 20px;
+}
+
+.navigation-section ul li {
+    list-style: none;
+}
+
+.road-assistance .call-logo {
+    display: flex;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.call-logo .call-image {
+    padding-right: 10px;
+
+}
+
+
+/* First-Section */
+
+#first-section {
+    padding: 50px 0;
+}
+
+#first-section .main-section {
+    display: flex;
+}
+
+#first-section .main-section .left-section {
+    width: 45%;
+}
+
+#first-section .main-section .right-section{
+    width: 55%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+#first-section .main-section .right-section h1 {
+    padding: 10px 0;
+    font-size: 40px;
+}
+
+#first-section .main-section .right-section p {
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+#first-section .main-section .right-section button {
+    background-color: orangered;
+    color: white;
+    width: 30%;
+    padding: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* Second-Section */
+
+#second-section {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+
+#second-section .main-section {
+    display: flex;
+}
+
+#second-section .main-section .left-section {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 50%;
+}
+
+#second-section .main-section .left-section .car-image {
+    padding-bottom: 30px;
+}
+
+#second-section .main-section .left-section .car-text h3 {
+    padding-bottom: 15px;
+}
+
+#second-section .main-section .left-section .car-text p {
+    padding-bottom: 40px;
+    line-height: 25px;
+}
+
+.main-section .left-section .arrow-part .arrow-image small {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#second-section .main-section .right-section {
+    padding: 0 40px;
+    width: 50%;
+    margin-left: 40px;
+}
+
+#second-section .box-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#second-section .box-section .box {
+    background-color: white;
+    width: 48%;
+    margin-bottom: 14px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+}
+
+#second-section .box-section .box p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#second-section .box-section .box:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+/* Third-Section */
+
+#third-section {
+    padding: 50px 0;
+}
+
+#third-section .main-section {
+    display: flex;
+}
+
+#third-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#third-section .main-section .left-section h1 {
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.main-section .left-section .text-section .check .icon {
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.main-section .left-section .text-section .check .icon p {
+    margin-left: 15px;
+    padding-top: 5px;
+    line-height: 23px;
+}
+
+
+
+#third-section .main-section .right-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#third-section .main-section .right-section .car-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section .right-section .car-image .car-1 img {
+    width: 100%;
+    height: 95%;
+    padding-right: 8px;
+}
+
+.main-section .right-section .car-image .car-2 img {
+    width: 100%;
+    height: 95%;
+    padding-left: 8px;
+}
+
+
+/* Fourth-Section */
+
+#fourth-section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#fourth-section .main-section {
+    display: flex;
+}
+
+#fourth-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#fourth-section .main-section .left-section .car-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section .left-section .car-image .car-1 img {
+    width: 100%;
+    height: 95%;
+    padding-right: 8px;
+}
+
+.main-section .left-section .car-image .car-2 img {
+    width: 100%;
+    height: 95%;
+    padding-left: 8px;
+}
+
+#fourth-section .main-section .right-section {
+    padding: 10px 20px;
+    width: 45%;
+}
+
+#fourth-section .main-section .right-section .text-section h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#fourth-section .main-section .right-section .text-section p {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+#fourth-section .main-section .right-section .text-section button {
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* Fifith-Section */
+
+#fifth-section .main-section {
+    display: flex;
+}
+
+#fifth-section .main-section {
+    width: 100%;
+}
+
+#fifth-section .main-section .car-section {
+    width: 28%;
+
+}
+
+#fifth-section .main-section .car-section img {
+    height: 100%;
+
+}
+
+#fifth-section .main-section .text-section {
+    width: 32%;
+    background-color: orangered;
+    color: white;
+    padding: 90px 30px;
+}
+
+#fifth-section .main-section .text-section p {
+    font-size: 26px;
+}
+
+#fifth-section .main-section .text-section .btn {
+    padding: 40px 0;
+}
+
+#fifth-section .main-section .text-section button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#fifth-section .main-section .engine-section {
+    width: 40%;
+}
+
+#fifth-section .main-section .engine-section img {
+    width: 100%;
+    height: 100%;
+}
+
+#fifth-section .number-section {
+    height: 120px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#fifth-section .number-section h1 {
+    font-size: 45px;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+#fifth-section .number-section p {
+    font-weight: 550;
+    color: #1E1B1B;
+}
+
+
+/* Sixth-Section */
+
+#sixth-section {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 50px 0;
+}
+
+#sixth-section .main-section {
+    display: flex;
+}
+
+#sixth-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#sixth-section .main-section .left-section h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+#sixth-section .main-section .left-section .logos {
+    display: flex;
+    padding-top: 50px;
+}
+
+.main-section .left-section .logos img {
+    padding-right: 40px;
+    width: 120%;
+}
+
+#sixth-section .main-section .right-section {
+    width: 45%;
+    padding: 10px 0;
+    padding-left: 50px;
+}
+
+.main-section .right-section .text {
+    padding-bottom: 40px;
+}
+
+.main-section .right-section .text p {
+    line-height: 36px;
+}
+
+.main-section .right-section .text small {
+    font-size: 17px;
+    color: gray;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer .main-footer {
+    display: flex;
+}
+
+footer .main-footer .logo-section {
+    width: 20%;
+}
+
+footer .main-footer .middle-section {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .navigation-section ul li a{
+    color: white;
+}  
+
+footer .main-footer .last-section {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .main-footer .last-section small {
+    color: gray;
+}
+
+
+
+
+/* Media-Query */
+
+/* Laptop-View */
+@media only screen and (max-width: 1024.99px) {
+    header .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .logo-section .logo-image img {
+        width: 20%;
+    }
+
+    .main-header .right-section {
+        padding: 10px 0;
+    }
+
+    #first-section .main-section .right-section button {
+        width: 40%;
+    }
+
+    #second-section .main-section .left-section .car-image {
+        padding-bottom: 20px;
+    }
+
+    #second-section .main-section .left-section .car-text p {
+        padding-bottom: 20px;
+    }
+
+    #third-section .main-section .left-section h1 {
+        font-size: 30px;
+    }
+
+    .main-section .left-section .text-section .check .icon p {
+        font-size: 15px;
+    }
+
+    .main-section .left-section .text-section .check .icon {
+        padding-bottom: 20px;
+    }
+
+    #third-section .main-section .right-section .car-image {
+        height: 100%;
+    }
+
+    #fourth-section .main-section .left-section .car-image {
+        height: 100%;
+    }
+
+    #fourth-section .main-section .right-section .text-section h2 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    #fourth-section .main-section .right-section .text-section p {
+        font-size: 15px;
+    }
+
+    #fourth-section .main-section .right-section .text-section button {
+        width: 40%;
+    }
+
+    #fifth-section .main-section .car-section img {
+        width: 250%;
+        height: 100%;
+    }
+
+    footer .main-footer .logo-section {
+        width: 15%;
+    }
+
+    footer .main-footer .middle-section {
+        width: 73%;
+    }
+
+    .navigation-section ul {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    footer .main-footer .last-section {
+        width: 12%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Tablet-View */
+@media only screen and (max-width: 768.99px) {
+    .road-assistance .call-logo {
+        display: none;
+    }
+
+    .right-section .navigation-section {
+        border: none;
+    }
+
+    .navigation-section ul {
+        font-size: 16px;
+    }
+
+    #first-section .main-section .left-section .image-section img {
+        width: 196%;
+        height: 100%;
+    }
+
+    #first-section .main-section .right-section {
+        padding: 30px;
+        height: 100%;
+    }
+
+    #first-section .main-section .right-section button {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    #second-section .main-section .left-section {
+        padding: 20px;
+    }
+
+    #second-section .main-section .left-section .car-text p {
+        font-size: 16px;
+    }
+
+    #second-section .main-section .right-section {
+        padding: 0;
+    }
+
+    #second-section .box-section .box p {
+        font-size: 15px;
+    }
+
+    #third-section .main-section .left-section h1 {
+        font-size: 25px;
+    }
+
+    #third-section .main-section .left-section {
+        width: 55%;
+    }
+
+    .main-section .left-section .text-section .check .icon img {
+        width: 15%;
+    }
+
+    #third-section .main-section .right-section {
+        padding: 0;
+    }
+
+    .main-section .right-section .car-image .car-1 img {
+        padding-right: 1px;
+    }
+
+    .main-section .right-section .car-image .car-2 img {
+        padding-right: 1px;
+    }
+
+    #fourth-section .main-section .right-section .text-section h2 {
+        font-size: 20px;
+    }
+
+    #fourth-section .main-section .right-section .text-section button {
+        width: 50%;
+    }
+
+    #fourth-section .main-section .right-section {
+        padding: 0 10px;
+    }
+
+    .main-section .left-section .car-image .car-1 img {
+        padding-right: 1px;
+    }
+
+    .main-section .left-section .car-image .car-2 img {
+        padding-right: 1px;
+    }
+
+    #fifth-section .main-section .text-section {
+        height: 50%;
+        padding: 30px;
+    }
+
+    #fifth-section .main-section .text-section p {
+        font-size: 22px;
+    }
+
+    #sixth-section .main-section .left-section h2 {
+        font-size: 30px;
+    }
+
+    .main-section .right-section .text {
+        padding-bottom: 20px;
+    }
+
+    #sixth-section .main-section .right-section {
+        padding-left: 25px;
+
+    }
+
+    .main-section .right-section .text p {
+        line-height: 30px;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+    }
+
+    footer .main-footer .middle-section {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    footer .main-footer .last-section {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Mobile-View */
+@media only screen and (max-width: 425.99px) {
+    .main-header .logo-section .logo-image img {
+        width: 35%;
+    }
+
+    .navigation-section ul {
+        flex-direction: column;
+        line-height: 23px;
+    }
+
+    .right-section .navigation-section {
+        margin-bottom: 100px;
+    }
+
+    .navigation-section ul li a {
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+    #first-section .main-section {
+        flex-direction: column;
+    }
+
+    #first-section .main-section .left-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    #first-section .main-section .left-section .image-section img {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    #first-section .main-section .right-section h1 {
+        padding: 0;
+        font-size: 30px;
+    }
+
+    #second-section {
+        padding: 30px 0;
+    }
+
+    #second-section .main-section {
+        flex-direction: column;
+    }
+
+    #second-section .main-section .left-section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #second-section .main-section .right-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #third-section {
+        padding: 20px 0;
+    }
+
+    #third-section .main-section {
+        flex-direction: column;
+    }
+
+    #third-section .main-section .left-section {
+        width: 100%;
+        padding: 0;
+        order: 2;
+    }
+
+    #third-section .main-section .left-section h1 {
+        text-align: center;
+    }
+
+    .main-section .left-section .text-section .check .icon p {
+        margin-left: 10px;
+    }
+
+    .main-section .left-section .text-section .check .icon p {
+        padding-top: 0;
+        line-height: 22px;
+    }
+
+    #third-section .main-section .right-section {
+        width: 100%;
+        order: 1;
+    }
+
+    #fourth-section .main-section {
+        flex-direction: column;
+    }
+
+    #fourth-section .main-section .left-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    #fourth-section .main-section .right-section {
+        width: 100%;
+    }
+
+    #fourth-section .main-section .right-section .text-section h2 {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    #fourth-section .main-section .right-section .text-section p {
+        line-height: 22px;
+    }
+
+    #fifth-section .main-section {
+        flex-direction: column;
+    }
+
+    #fifth-section .main-section .car-section {
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #fifth-section .main-section .car-section img {
+        width: 100%;
+    }
+
+    #fifth-section .main-section .text-section {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #fifth-section .main-section .engine-section {
+        width: 100%;
+    }
+
+    #sixth-section {
+        padding: 20px 0;
+    }
+
+    #sixth-section .main-section {
+        flex-direction: column;
+    }
+
+    #sixth-section .main-section .left-section {
+        width: 100%;
+        order: 2;
+        padding: 0;
+        padding-top: 25px;
+        border-top: 2px solid gray;
+    }
+
+    #sixth-section .main-section .right-section {
+        width: 100%;
+        padding-left: 0;
+        order: 1;
+    }
+
+    #sixth-section .main-section .left-section h2 {
+        padding-bottom: 20px;
+    }
+
+    footer .main-footer .logo-section {
+        width: 100%;
+    }
+
+    footer .main-footer .middle-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    footer .navigation-section ul li a {
+        margin: 1px 0;
+        width: 100%;
+    }
+
+    footer .main-footer .last-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
