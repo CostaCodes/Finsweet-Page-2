@@ -718,6 +718,7 @@ footer .main-footer .last-section small {
     #first-section .main-section .left-section {
         width: 100%;
         padding: 0;
+        background-color: black;
     }
 
     #first-section .main-section .left-section .image-section img {
@@ -769,6 +770,7 @@ footer .main-footer .last-section small {
 
     #third-section .main-section .left-section h1 {
         text-align: center;
+        padding-top: 5px;
     }
 
     .main-section .left-section .text-section .check .icon p {
@@ -816,6 +818,7 @@ footer .main-footer .last-section small {
         width: 100%;
         margin-bottom: 0;
         padding-bottom: 0;
+        background-color: orangered;
     }
 
     #fifth-section .main-section .car-section img {
@@ -827,8 +830,13 @@ footer .main-footer .last-section small {
         margin-top: 0;
     }
 
+    #fifth-section .main-section .text-section .btn {
+        padding: 25px 0;
+    }
+
     #fifth-section .main-section .engine-section {
         width: 100%;
+        background-color: #1E1B1B;
     }
 
     #sixth-section {
